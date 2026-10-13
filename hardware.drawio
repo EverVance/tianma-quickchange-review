@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <mxfile host="Electron" agent="Codex">
-  <diagram id="quickchange-two-boards-v04" name="两板方案">
+  <diagram id="quickchange-two-boards-v05" name="两板方案">
     <mxGraphModel dx="2500" dy="1760" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="1760" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -8,7 +8,7 @@
         <mxCell id="TITLE" parent="1" vertex="1" value="天马座夹爪快换硬件框图" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=40;fontColor=#203347;strokeWidth=1;fillColor=none;strokeColor=none;connectable=0;align=left;spacing=0;fontColor=#203347;fontStyle=1;">
           <mxGeometry x="40" y="28" width="2360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SUBTITLE" parent="1" vertex="1" value="V0.4　2026-10-13" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#203347;strokeWidth=1;fillColor=none;strokeColor=none;connectable=0;align=left;spacing=0;fontColor=#637487;fontStyle=0;">
+        <mxCell id="SUBTITLE" parent="1" vertex="1" value="V0.5　2026-10-13" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#203347;strokeWidth=1;fillColor=none;strokeColor=none;connectable=0;align=left;spacing=0;fontColor=#637487;fontStyle=0;">
           <mxGeometry x="40" y="105" width="550" height="30" as="geometry" />
         </mxCell>
         <mxCell id="COORD" parent="1" vertex="1" value="工具按固定坐标取放，由机械臂控制器选择。" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#203347;strokeWidth=1;fillColor=none;strokeColor=none;connectable=0;align=left;spacing=0;fontColor=#637487;fontStyle=0;">
@@ -439,7 +439,7 @@
         <mxCell id="PHYSICAL" parent="1" vertex="1" value="POGO 暂留 2 × 12：Board A 焊接弹簧针，Board B 直接做镀金触点；增加电源并针与回流针。" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#203347;strokeWidth=1;fillColor=none;strokeColor=none;connectable=0;align=left;spacing=0;fontColor=#637487;fontStyle=0;">
           <mxGeometry x="40" y="1640" width="2350" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LEGEND" parent="1" vertex="1" value="Board A 集成 H1 / H2 与焊接弹簧针；Board B 集成双 ADC 与镀金触点。" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#203347;strokeWidth=1;fillColor=none;strokeColor=none;connectable=0;align=left;spacing=0;fontColor=#637487;fontStyle=0;">
+        <mxCell id="LEGEND" parent="1" vertex="1" value="Board A 集成 H1 / H2 与焊接弹簧针；Board B 40×10 mm；传感器与电机接口改焊接尾线。" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#203347;strokeWidth=1;fillColor=none;strokeColor=none;connectable=0;align=left;spacing=0;fontColor=#637487;fontStyle=0;">
           <mxGeometry x="40" y="1700" width="2400" height="30" as="geometry" />
         </mxCell>
       </root>
