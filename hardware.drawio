@@ -44,14 +44,29 @@
         <mxCell id="QUICKCOUNT" parent="1" vertex="1" value="20 路&lt;br&gt;基础接口" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=20;fontColor=#203347;strokeWidth=1;fillColor=none;strokeColor=none;connectable=0;align=left;spacing=0;fontColor=#637487;fontStyle=0;">
           <mxGeometry x="1100" y="715" width="110" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="A_UP" parent="1" vertex="1" value="&lt;b&gt;A-UP｜上游接口&lt;/b&gt;&lt;br&gt;&lt;br&gt;48V / GND_48&lt;br&gt;&lt;br&gt;24V / GND_24&lt;br&gt;&lt;br&gt;传感 CAN_H / L&lt;br&gt;&lt;br&gt;电机 CAN_H / L" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#203347;strokeWidth=1;fillColor=#ffffff;strokeColor=#718ba2;">
+        <mxCell id="A_UP" parent="1" vertex="1" value="&lt;b&gt;A-UP｜上游接口&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#203347;strokeWidth=1;fillColor=#ffffff;strokeColor=#718ba2;verticalAlign=top;spacingTop=20;">
           <mxGeometry x="70" y="280" width="210" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="UP_LABEL_48" parent="1" vertex="1" value="48V / GND_48" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#203347;strokeWidth=1;fillColor=none;strokeColor=none;connectable=0;align=left;spacing=0;fontColor=#203347;fontStyle=0;">
+          <mxGeometry x="80" y="340" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UP_LABEL_M_CAN" parent="1" vertex="1" value="电机 CAN_H / L" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#203347;strokeWidth=1;fillColor=none;strokeColor=none;connectable=0;align=left;spacing=0;fontColor=#203347;fontStyle=0;">
+          <mxGeometry x="80" y="450" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UP_LABEL_24" parent="1" vertex="1" value="24V / GND_24" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#203347;strokeWidth=1;fillColor=none;strokeColor=none;connectable=0;align=left;spacing=0;fontColor=#203347;fontStyle=0;">
+          <mxGeometry x="80" y="605" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UP_LABEL_S_CAN" parent="1" vertex="1" value="传感 CAN_H / L" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#203347;strokeWidth=1;fillColor=none;strokeColor=none;connectable=0;align=left;spacing=0;fontColor=#203347;fontStyle=0;">
+          <mxGeometry x="80" y="660" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UPSTREAM_HINT" parent="1" vertex="1" value="来自机械臂线束" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#203347;strokeWidth=1;fillColor=none;strokeColor=none;connectable=0;align=left;spacing=0;fontColor=#637487;fontStyle=0;">
           <mxGeometry x="70" y="248" width="210" height="28" as="geometry" />
         </mxCell>
         <mxCell id="A_48" parent="1" vertex="1" value="&lt;b&gt;48V 电源开关&lt;/b&gt;&lt;br&gt;MCU 控制通断" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=23;fontColor=#203347;strokeWidth=1;fillColor=#fff6ee;strokeColor=#bd9578;">
           <mxGeometry x="350" y="310" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="A_M_CAN_SW" parent="1" vertex="1" value="&lt;b&gt;电机 CAN 通断管理&lt;/b&gt;&lt;br&gt;CAN_H / CAN_L 双线开关&lt;br&gt;MCU 使能 · 默认断开&lt;br&gt;合位锁止后接通 / 拆换前断开" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#203347;strokeWidth=1;fillColor=#eef4ed;strokeColor=#8fa584;">
+          <mxGeometry x="350" y="425" width="465" height="130" as="geometry" />
         </mxCell>
         <mxCell id="A_DC" parent="1" vertex="1" value="&lt;b&gt;24V → 5V → 3V3&lt;/b&gt;&lt;br&gt;本地电源" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Microsoft YaHei;fontSize=23;fontColor=#203347;strokeWidth=1;fillColor=#fff6ee;strokeColor=#bd9578;">
           <mxGeometry x="350" y="565" width="280" height="120" as="geometry" />
@@ -173,10 +188,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UP_CAN" parent="1" edge="1" source="A_UP" target="PA_M_CAN" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#59734e;strokeWidth=1;endArrow=block;endFill=1;endSize=9;startArrow=block;startFill=1;startSize=9;exitX=1;exitY=0.4523809523809524;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=10;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#59734e;labelBackgroundColor=#ffffff;dashed=0;">
+        <mxCell id="UP_CAN" parent="1" edge="1" source="A_UP" target="A_M_CAN_SW" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#59734e;strokeWidth=1;endArrow=block;endFill=1;endSize=9;startArrow=block;startFill=1;startSize=9;exitX=1;exitY=0.4523809523809524;entryX=0;entryY=0.34615384615384615;exitDx=0;exitDy=0;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=10;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#59734e;labelBackgroundColor=#ffffff;dashed=0;">
           <mxGeometry relative="1" y="-14" as="geometry">
             <Array as="points">
               <mxPoint x="315" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAN_SW_PG" parent="1" edge="1" source="A_M_CAN_SW" target="PA_M_CAN" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#59734e;strokeWidth=1;endArrow=block;endFill=1;endSize=9;startArrow=block;startFill=1;startSize=9;exitX=1;exitY=0.34615384615384615;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=10;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#59734e;labelBackgroundColor=#ffffff;dashed=0;">
+          <mxGeometry relative="1" y="-14" as="geometry">
+            <Array as="points">
               <mxPoint x="830" y="470" />
             </Array>
           </mxGeometry>
@@ -202,12 +223,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UP_MCU" parent="1" edge="1" source="A_UP" target="A_MCU" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#59734e;strokeWidth=1;endArrow=block;endFill=1;endSize=9;startArrow=block;startFill=1;startSize=9;exitX=0.5;exitY=1;entryX=0;entryY=0.16455696202531644;exitDx=0;exitDy=0;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=10;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#59734e;labelBackgroundColor=#ffffff;dashed=0;">
+        <mxCell id="UP_MCU" parent="1" edge="1" source="A_UP" target="A_MCU" value="" style="edgeStyle=none;rounded=0;html=1;strokeColor=#59734e;strokeWidth=1;endArrow=block;endFill=1;endSize=9;startArrow=block;startFill=1;startSize=9;exitX=1;exitY=0.9523809523809523;entryX=0;entryY=0.16455696202531644;exitDx=0;exitDy=0;entryDx=0;entryDy=0;jumpStyle=arc;jumpSize=10;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#59734e;labelBackgroundColor=#ffffff;dashed=0;">
           <mxGeometry relative="1" y="-14" as="geometry">
             <Array as="points">
-              <mxPoint x="175" y="750" />
-              <mxPoint x="315" y="750" />
-              <mxPoint x="315" y="850" />
+              <mxPoint x="325" y="680" />
+              <mxPoint x="325" y="850" />
             </Array>
           </mxGeometry>
         </mxCell>
