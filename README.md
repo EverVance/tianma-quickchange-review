@@ -4,7 +4,8 @@
 
 - 入口：`index.html`；拆换动画：`motion.html`；可编辑框图：`hardware.drawio`。
 - MCU、上游 CAN FD 收发器、电机 CAN FD 备选收发器独立画出。两组 H/L 0Ω 互斥选择上游直通或 MCU 控制；共用下游 CAN 双线通断开关。
-- 固定侧保护壳、Board B 40×10 mm、结构动画及板框候选保持原内容。框图与页面修改不是 PCB 或机械加工验收。
+- 当前工作稿：取消 H1/H2，保留 IFDET 电气在位检测；同一 48V 母线供电，Board A 降至 5V / 3V3；CAN 恢复分裂终端，POGO 当前 24 pin 分配。
+- 固定侧保护壳与 Board B 40×10 mm 约束保留。结构图和动画是含霍尔 / 磁铁的历史草案，入口明确标为历史；不代表当前电气方案。框图修改不是 PCB 或机械加工验收。
 - 两个旧版 GRIPPER_SENSOR 原理图/PCB 未因本次网页整理修改。
 - 公开地址：https://evervance.github.io/tianma-quickchange-review/
 - 此目录是当前网页的维护与发布源，保留完整 Git 历史。双击 index.html 可离线浏览；使用本地网页服务器时以此目录为根目录。
